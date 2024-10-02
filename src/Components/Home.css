@@ -1,0 +1,35 @@
+.product-list1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Space between cards */
+    background-color: rgb(220, 220, 234);
+  }
+  
+  .container {
+    padding: 20px; /* Add padding around the container */
+    background-color:rgb(220, 205, 232);
+}
+
+.row {
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.img-fluid {
+    max-height: 400px; /* Ensure images don't exceed this height */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+.col {
+    display: flex; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Align items vertically */
+}
+.beauty{
+  color: brown;
+  align-items: center;
+  align-content: center;
+  margin-left: 50px;
+}

@@ -1,0 +1,55 @@
+/* Navbar.css */
+/* Navbar.css */
+.navbar {
+    display: flex;
+     height: 90px;
+    gap: 10px;
+    padding: 10px; /* Optional: adds padding around the navbar */
+    background-color:rgb(55, 55, 66); /* Optional: sets background color */
+  }
+  
+  .nav-item {
+    color: #fff; /* Sets text color */
+    text-decoration: none; /* Removes underline from links */
+  
+    font-size: 24px; /* Sets icon size, adjust as needed */
+    align-items: center;
+  
+  }
+  
+  .nav-item:hover {
+    color: #a81717; /* Optional: change color on hover */
+  }
+ 
+  
+  .nav-item:last-child {
+    margin-right: 50px; /* Removes right margin from the last item */
+  }
+  .btn{
+    size: 5px;
+    font-size: 18px;
+    color: white;
+   
+ border-radius: 3%;
+ margin-top:-1%;
+    
+}
+.btn:hover {
+    color: #a81717; /* Optional: change color on hover */
+  }
+  .cart-count {
+    position: absolute; /* Position the count relative to the cart icon */
+    top: 0; /* Adjust this value based on your design */
+    right: 0; /* Adjust this value based on your design */
+    background-color: rgb(232, 244, 236); /* Change to your desired color */
+    color: rgb(128, 0, 0); /* Change to your desired color */
+    border-radius: 50%; /* Make it circular */
+    padding: 0.2em 0.5em; /* Adjust size */
+    font-size: 0.8em; /* Adjust font size */
+   margin-right: 3%;
+   font-style: oblique;
+}
+  
+
+  
+ 

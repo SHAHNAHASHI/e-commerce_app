@@ -1,0 +1,26 @@
+.prod{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.image{
+    width: 300px;
+    height: 300px;
+    
+}
+.description{
+    font-size: 0.875rem;
+    color: #777;
+    height: 3.6em; /* Adjust based on how much text you want visible */
+    line-height: 1.2em; /* Line height should be less than the height to ensure ellipsis works */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show before truncating */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

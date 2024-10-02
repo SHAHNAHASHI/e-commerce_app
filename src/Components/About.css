@@ -1,0 +1,91 @@
+/* .about p{
+    font-size: 30px;
+}
+.about h1{
+ color: rgb(20, 50, 157);
+}
+.about{
+    background-color: rgb(181, 175, 218)
+} */
+ /* AboutUs.css */
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(83, 66, 66);
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-text {
+    margin-bottom: 40px;
+  }
+  
+  .about-us-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-text p {
+    line-height: 1.6;
+  }
+  
+  .about-us-team {
+    margin-bottom: 40px;
+  }
+  
+  .about-us-team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-member {
+    flex: 1 1 calc(33% - 40px); /* Adjust width for responsive design */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+  }
+  
+  .about-us-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }

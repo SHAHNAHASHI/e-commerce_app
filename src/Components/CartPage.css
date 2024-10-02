@@ -1,0 +1,147 @@
+/* src/Components/CartPage.css */
+
+.cart-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+.cart-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-item-image {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex: 1;
+}
+
+.cart-item-details h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.cart-item-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.buy-button {
+    font-size: 1rem;
+    color:white;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 50%;
+   
+}
+
+.buy-button:hover {
+    background-color: #11c0b1;
+}
+
+.back-button1 {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    border-radius: 5px;
+   
+    display: inline-block;
+   
+    background-color: #00796b;
+
+   
+}
+
+.back-button1:hover {
+    background-color: #11c0b1;
+    border-color: #e3edeb;
+}
+.cart-page {
+    padding: 20px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .cart-item-image {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .cart-item-quantity button {
+    background-color: #363c42;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .cart-item-quantity input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    margin-right: 20%;
+  }
+  
+ 

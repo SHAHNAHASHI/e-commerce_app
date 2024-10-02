@@ -1,0 +1,54 @@
+
+
+.Footer{
+    background-color:black;
+    height: 300px;
+    padding: 20px; /* Add top and bottom padding */
+    padding-left: 40px; /* Adjust left padding as needed */
+    padding-right: 40px; /* Adjust right padding as needed */
+    
+    
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Optional: Set a max width for better alignment */
+    margin: 0 auto; /* Center the container */
+    
+}
+  
+  .footer__section {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    font-style: italic;
+   
+    min-width: 280px; /* Set a minimum width for sections */
+    margin: 10px; /* Add margin between sections */
+   
+    
+  }
+  .footer__section h3 {
+    font-size: 15px;
+    color: white;
+  }
+
+.footer__section ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+.footer__section a {
+  text-decoration: none; /* Remove underline from links */
+  color:white; /* Example link color */
+}
+.footer__section p {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Example link color */
+}
+.Footer a:hover,
+.Footer a:focus {
+    text-decoration: underline; /* Underline on hover/focus */
+}

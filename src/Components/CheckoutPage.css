@@ -1,0 +1,22 @@
+.back-button{
+    margin-bottom: 20%;
+    margin-left: 40%;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    border-radius: 5px;
+   
+    display: inline-block;
+   
+    background-color: #00796b;
+}
+.purchase{
+    color: rgb(212, 109, 40);
+    font-size: 300%;
+    margin-left: 30%;
+}
+.checkout-page h1{
+    margin-top: 5%;
+}
